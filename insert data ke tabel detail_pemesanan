@@ -1,0 +1,7 @@
+SQL> insert all
+2 into detail_pemesanan values (2,1,'4','20')
+3 into detail_pemesanan values (5,2,'2','10')
+4 into detail_pemesanan values (3,4,'6','30')
+5 into detail_pemesanan values (1,5,'2','5')
+6 into detail_pemesanan values (4,3,'8','60')
+7 select 1 from dual;
