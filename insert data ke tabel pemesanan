@@ -1,0 +1,7 @@
+SQL> insert all
+2 into pemesanan values (1,1,1,1, to_date('01/12/2019','dd/mm/yyyy'), to_date('15/12/2019','dd/mm/yyyy'),'jl.tambaksari no 51','500000')
+3 into pemesanan values (2,2,2,2, to_date('09/10/2019','dd/mm/yyyy'), to_date('13/10/2019','dd/mm/yyyy'),'jl.kapasmadya no 1a','250000')
+4 into pemesanan values (3,3,3,3, to_date('13/11/2019','dd/mm/yyyy'), to_date('01/12/2019','dd/mm/yyyy'),'jl.ngagelrejo no15','1500000')
+5 into pemesanan values (4,4,4,4, to_date('20/12/2019','dd/mm/yyyy'), to_date('05/01/2020','dd/mm/yyyy'),'jl.pucangsewu no10D','950000')
+6 into pemesanan values (5,5,5,5, to_date('10/01/2020','dd/mm/yyyy'), to_date('21/01/2020','dd/mm/yyyy'),'jl.keputih no45','1000000')
+7 select 1 from dual;
