@@ -1,0 +1,7 @@
+SQL> create table detail_pemesananan
+  2  (
+  3  id_produk          INTEGER         not null,
+  4  id_pemesanan       INTEGER,
+  5  jumlah             numeric(5),
+  6  diskon             float(4)
+  7  );
