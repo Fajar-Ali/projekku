@@ -1,0 +1,5 @@
+  SQL> alter table detail_pemesanan
+  2  add constraint FK_id_produk FOREIGN KEY (id_produk)
+  3  references produk(id_produk)
+  4  add constraint FK_id_pemesanan FOREIGN KEY (id_pemesanan)
+  5  references pemesanan(id_pemesanan);
