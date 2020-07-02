@@ -1,0 +1,7 @@
+  SQL> create table produk
+  2  (
+  3  id_produk          INTEGER         not null,
+  4  nama_produk        VARCHAR(50),
+  5  harga_satuan       NUMERIC(15),
+  6  constraint PK_produk primary key (id_produk)
+  7  );
