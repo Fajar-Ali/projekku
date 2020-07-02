@@ -1,0 +1,7 @@
+SQL> insert all
+2 into pegawai values (1, 'Rahmat', 'jl.mulyosari no 4', '085678212343')
+3 into pegawai values (2, 'Roni','jl.mergosari no 46', '0875839211235' )
+4 into pegawai values (3, 'puji','jl.pumpungan no 35 gg4','085649659399')
+5 into pegawai values (4, 'retno','jl.kutisari no 23','0818734562093')
+6 into pegawai values (5, 'udin','jl.kalibokor no 48f','087892451278')
+7 select 1 from dual;
