@@ -1,0 +1,7 @@
+  SQL> create table kurir
+  2  (
+  3  id_kurir           INTEGER         not null,
+  4  Nama_driver        VARCHAR(50),
+  5  No_tlp             VARCHAR(25),
+  6  constraint PK_kurir primary key (id_kurir)
+  7  );
