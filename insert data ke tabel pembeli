@@ -1,0 +1,7 @@
+SQL> insert all
+2 into pembeli values (1,'nia','jl.tambaksari no 51','081324098732')
+3 into pembeli values (2,'budi','jl.kapasmadya no 1a','083590977265')
+4 into pembeli values (3,'rahma','jl.ngagelrejo no15','08765983726718')
+5 into pembeli values (4,'maulidin','jl.pucangsewu no10D','08787650312367')
+6 into pembeli values (5,'yahya','jl.keputih no45','0853428976512')
+7 select 1 from dual;
