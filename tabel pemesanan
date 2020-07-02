@@ -1,0 +1,12 @@
+SQL> create table pemesanan
+  2  (
+  3  id_pemesanan       INTEGER         not null,
+  4  id_pegawai         INTEGER,
+  5  id_pembeli         INTEGER,
+  6  id_kurir           INTEGER,
+  7  tanggal_pemesanan  date,
+  8  tanggal_pengiriman date,
+  9  alamat_pengiriman  VARCHAR(100),
+ 10  total_harga        numeric(20),
+ 11  constraint PK_pemesanan primary key (id_pemesanan)
+ 12  );
