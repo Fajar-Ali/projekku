@@ -1,0 +1,7 @@
+SQL> insert all
+2 into produk values (1,'crizal','450000')
+3 into produk values (2,'esillor','600000')
+4 into produk values (3,'eyezen','950000')
+5 into produk values (4,'Calvin Klein','400000')
+6 into produk values (5,'hoya','300000')
+7 select 1 from dual;
