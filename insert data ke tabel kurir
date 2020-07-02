@@ -1,0 +1,7 @@
+SQL> insert all
+2 into kurir values (1, 'jayadi', '0876543098712')
+3 into kurir values (2, 'yayan', '08582193416908')
+4 into kurir values (3, 'jumali', '0874036652398')
+5 into kurir values (4, 'junaidi', '08750976212986')
+6 into kurir values (5, 'rohmawi', '08387608124623')
+7 select 1 from dual;
