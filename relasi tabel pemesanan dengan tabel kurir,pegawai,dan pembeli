@@ -1,7 +1,7 @@
-SQL> create table detail_pemesananan
-  2  (
-  3  id_produk          INTEGER         not null,
-  4  id_pemesanan       INTEGER,
-  5  jumlah             numeric(5),
-  6  diskon             float(4)
-  7  );
+SQL> alter table pemesanan
+  2  add constraint FK_id_pegawai FOREIGN KEY (id_pegawai)
+  3  references pegawai(id_pegawai)
+  4  add constraint FK_id_pembeli FOREIGN KEY (id_pembeli)
+  5  references pembeli(id_pembeli)
+  6  add constraint FK_id_kurir FOREIGN KEY (id_kurir)
+  7  references kurir(id_kurir);
