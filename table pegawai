@@ -1,0 +1,8 @@
+  SQL> create table pegawai
+  2  (
+  3  id_pegawai         INTEGER         not null,
+  4  Nama               VARCHAR(50),
+  5  Alamat             VARCHAR(50),
+  6  No_tlp             VARCHAR(25),
+  7  constraint PK_pegawai primary key (id_pegawai)
+  8  );
