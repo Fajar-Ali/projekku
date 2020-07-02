@@ -1,0 +1,3 @@
+  SQL> CREATE TABLESPACE fajar_06667
+  2  datafile 'E:\oracle\app\oracle\oradata\XE\fajar_06667.dbf'
+  3  size 30M; 
